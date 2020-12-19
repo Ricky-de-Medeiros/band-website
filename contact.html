@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style_contact.css">
+</head>
+<body>
+  <!--Nav bar-->
+  <div class="contact-section">
+    <div id="myNav" class="overlay">
+  
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn contact-section" onclick="closeNav()">&times;</a>
+    
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    
+    </div>
+    
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <span style="font-size:40px;cursor:pointer" onclick="openNav()">
+      <img src="menu.png" alt="Menu">
+    </span>
+  </div>
+    <!--End of Nav bar-->
+
+    <h1 style="text-align: center;"><img src="contact.png" alt="Contact"></h1>
+
+   <br>
+   <br>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname" style="color: black;">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="First name..">
+      
+          <label for="lname" style="color: black;">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Last name..">
+   
+   
+          <label for="subject" style="color: black;">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Enquiry.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+      <script src="openNav.js"></script>
+</body>
+</html>

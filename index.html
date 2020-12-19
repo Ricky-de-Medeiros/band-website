@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Band Website</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="bg"></div>
+    <div class="music">
+      <audio controls autoplay>
+        <source src="Sample1.mp3" type="mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+  <!--Nav bar-->
+  <div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  
+  </div>
+  
+  <!-- Element to open/show the overlay navigation menu -->
+  <span style="font-size:40px;cursor:pointer" onclick="openNav()"><img src="menuBig.png" alt="Menu"></span>
+  <!--End of Nav bar-->
+  
+  <!--Animation-->
+  <header>
+    <section class="header-bg-blurry"></section>
+    <section class="header-content">
+      <section class="header-title js-animate-letters animate-fade-zoom">
+        <span>
+            <object class="latin-music" id="latin-music" data="latinmusic.png"></object>
+        </span>
+        <span>
+          <br>
+          
+          <object class="trumpet" id="trumpet" 
+            data="Trumpet.png">
+          </object>
+     
+        </span>
+        <span>
+
+            <object class="congas"
+            data="congas640x640.png">
+            </object>
+
+        </span>
+        <span>
+          <object class="guitar" data="guitar.png"></object>
+        </span>
+
+          <br>
+          <section class="social">
+                <!-- Add font Social Media icons -->
+            <a href="https://www.facebook.com/rickylatinguitar" class="fa fa-facebook"></a>
+            <a href="mailto:rickmedeiros@gmail.com" class="fa fa-google"></a>
+            <a href="https://www.youtube.com/user/RickFarewellParadise/" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com/rickydemedeiros/" class="fa fa-instagram"></a>
+            <p>
+              © Band website. All rights reserved. Design: Rick Alves de Medeiros
+            </p>    
+          </section>
+      </section>
+    </section>
+    </header>
+
+  <!--End of Animation-->
+  
+  <script src="script.js"></script>
+  <script src="openNav.js"></script>
+</body>
+</html>

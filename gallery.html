@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style_gallery.css">
+</head>
+<body>
+    <!--Nav bar-->
+  <div class="gallery-section">
+    <div id="myNav" class="overlay">
+  
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn about-section" onclick="closeNav()">&times;</a>
+    
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    
+    </div>
+    
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <span style="font-size:40px;cursor:pointer" onclick="openNav()">
+      <img src="menu.png" alt="Menu">
+    </span>
+  </div>
+    <!--End of Nav bar-->
+    <h1 style="text-align: center;"><img src="gallery.png" alt="Gallery"></h1>
+
+
+    <!-- MAIN (Center website) -->
+  <div class="main">
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column">
+        <div class="content">
+          <img src="Closeup2.jpg" alt="Guitar" style="width:100%">
+
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="Restaurant.jpg" alt="Restaurant" style="width:100%">
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="Solo5.jpg" alt="Solo Guitar" style="width:100%">
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <img src="Solo7.jpg" alt="Solo Guitar" style="width:100%">
+        </div>
+      </div>
+    </div>
+    
+    <div class="content">
+      <img src="stage1.jpg" alt="Stage" style="width:100%">
+    </div>
+    <div class="content">
+      <object data="https://www.youtube.com/embed/tICE6l9KXyE" width="980" height="630">
+        <embed src="https://www.youtube.com/embed/tICE6l9KXyE" width="980" height="630">
+          Error: Embeded data could not be displayed.
+      </object>
+
+    </div>
+    <!-- END MAIN -->
+    <script src="openNav.js"></script>
+  </div>
+</body>
+</html>
